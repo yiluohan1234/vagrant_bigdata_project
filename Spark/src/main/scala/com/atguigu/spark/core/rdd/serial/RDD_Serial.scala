@@ -14,7 +14,7 @@ object RDD_Serial {
     val user = new User()
 
     // SparkException: Task not serializable
-    // NotSerializableException: com.cuiyf41.spark.core.rdd.serial.Operator_Action$User
+    // NotSerializableException: com.atguigu.spark.core.rdd.serial.Operator_Action$User
 
     // RDD算子中传递的函数是会包含闭包操作，那么就会进行检测功能
     // 闭包检测

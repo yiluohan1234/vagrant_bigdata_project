@@ -1,5 +1,6 @@
 package com.atguigu.producer;
 
+import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
@@ -16,7 +17,7 @@ public class CustomProducerCallbackDefinePartitions {
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 
         // 关联自定义分区器
-        properties.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, "com.cuiyf41.kafka.producer.MyPartitioner");
+        properties.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, "com.atguigu.kafka.producer.MyPartitioner");
 
         return properties;
     }
