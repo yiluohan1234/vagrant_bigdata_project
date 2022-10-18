@@ -109,6 +109,13 @@ public class KPI {
     }
 
     /**
+     * ETL
+     */
+    public static KPI filterETL(String line){
+        return parser(line);
+    }
+
+    /**
      *重写toString方法
     */
     @Override
