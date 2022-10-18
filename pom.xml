@@ -7,6 +7,7 @@
     <name>vagrant_bigdata_project</name>
     <description>聚合</description>
 
+
     <modules>
         <module>HadoopMapreduce</module>
         <module>Spark</module>

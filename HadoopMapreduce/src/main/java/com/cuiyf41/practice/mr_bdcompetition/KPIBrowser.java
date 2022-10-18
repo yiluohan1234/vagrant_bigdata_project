@@ -56,6 +56,7 @@ public class KPIBrowser {
         //	设置客户端访问datanode使用hostname来进行访问
 		conf.set("dfs.client.use.datanode.hostname", "true");
 		conf.set("fs.defaultFS", "hdfs://hadoop000:9000");
+        System.setProperty("HADOOP_USER_NAME", "root");
         conf.setJobName("KPIBrowser");
 
         // 设置map输出的键值类型
