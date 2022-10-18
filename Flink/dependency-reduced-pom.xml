@@ -36,7 +36,7 @@
               </filters>
               <transformers>
                 <transformer>
-                  <mainClass>com.cuiyf41.wc.StreamWordCount</mainClass>
+                  <mainClass>com.atguigu.wc.StreamWordCount</mainClass>
                 </transformer>
               </transformers>
             </configuration>

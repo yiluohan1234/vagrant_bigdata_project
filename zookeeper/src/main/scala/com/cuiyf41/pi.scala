@@ -1,4 +1,4 @@
-package com.cuiyf41
+package com.atguigu
 import org.apache.spark.{SparkConf, SparkContext}
 object pi {
   def main(args: Array[String]) {

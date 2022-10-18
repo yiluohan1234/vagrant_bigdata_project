@@ -69,7 +69,7 @@
           <archive>
             <manifest>
               <!-- 此处指定main方法入口的class -->
-              <mainClass>com.cuiyf41.hadoop.flowsum.FlowsumDriver</mainClass>
+              <mainClass>com.atguigu.hadoop.flowsum.FlowsumDriver</mainClass>
             </manifest>
           </archive>
         </configuration>
