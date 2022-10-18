@@ -30,7 +30,7 @@ public class LogDriver {
         job.setJarByClass(LogDriver.class);
 
         // 3 关联map
-        job.setMapperClass(com.cuiyf.LogMapper.class);
+        job.setMapperClass(LogMapper.class);
 
         // 4 设置最终输出类型
         job.setOutputKeyClass(Text.class);
