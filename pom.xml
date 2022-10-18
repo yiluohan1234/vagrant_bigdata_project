@@ -18,6 +18,7 @@
         <module>Flink-Java</module>
         <module>FlinkKafka</module>
         <module>Kafka</module>
+        <module>SparkKafka</module>
     </modules>
 
 </project>
