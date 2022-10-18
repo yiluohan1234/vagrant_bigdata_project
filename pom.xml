@@ -19,6 +19,7 @@
         <module>FlinkKafka</module>
         <module>Kafka</module>
         <module>SparkKafka</module>
+        <module>FlumeInterceptor</module>
     </modules>
 
 </project>
