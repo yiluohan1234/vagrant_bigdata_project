@@ -16,6 +16,7 @@
         <module>Flink</module>
         <module>Hbase</module>
         <module>Flink-Java</module>
+        <module>FlinkKafka</module>
     </modules>
 
 </project>
