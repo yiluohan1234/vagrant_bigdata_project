@@ -20,6 +20,7 @@
         <module>Kafka</module>
         <module>SparkKafka</module>
         <module>FlumeInterceptor</module>
+        <module>Hivefunction</module>
     </modules>
 
 </project>
