@@ -1,4 +1,4 @@
-package com.atguigu;
+package com.atguigu.v2;
 
 
 import org.apache.hadoop.hbase.NamespaceDescriptor;
