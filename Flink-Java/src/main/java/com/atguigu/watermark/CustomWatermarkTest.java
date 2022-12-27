@@ -2,6 +2,7 @@ package com.atguigu.watermark;
 
 import com.atguigu.entity.Event;
 import com.atguigu.source.ClickSource;
+import org.apache.flink.api.common.eventtime.*;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
 public class CustomWatermarkTest {
