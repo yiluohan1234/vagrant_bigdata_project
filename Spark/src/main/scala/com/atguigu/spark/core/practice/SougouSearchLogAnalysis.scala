@@ -4,6 +4,7 @@ import java.util
 import com.hankcs.hanlp.HanLP
 import com.hankcs.hanlp.seg.common.Term
 import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.SparkSession
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.{SparkConf, SparkContext}
 import scalikejdbc.{DB, SQL}
@@ -51,7 +52,8 @@ object SougouSearchLogAnalysis {
     val sparkConf: SparkConf = new SparkConf()
       .setAppName(this.getClass.getSimpleName.stripSuffix("$"))
       .setMaster("local[*]")
-    val sc = new SparkContext(sparkConf)
+    val spark: SparkSession = SparkSession.builder().config(sparkConf).getOrCreate()
+    val sc: SparkContext = spark.sparkContext
 
     // TODO: 1. 本地读取SogouQ用户查询日志数据。本地文件需要加file:///
     val rawLogsRDD: RDD[String] = sc.textFile("/datas/SogouQ.sample")

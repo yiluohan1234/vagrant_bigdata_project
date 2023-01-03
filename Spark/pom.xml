@@ -92,7 +92,7 @@
     <dependency>
       <groupId>com.hankcs</groupId>
       <artifactId>hanlp</artifactId>
-      <version>portable-1.7.7</version>
+      <version>portable-1.7.5</version>
     </dependency>
     <!--scala操作JDBC小工具，方便对事务进行处理-->
     <dependency>
@@ -103,11 +103,8 @@
     <!-- scalikejdbc-config 2.11 -->
     <dependency>
       <groupId>org.scalikejdbc</groupId>
-      <artifactId>scalikejdbc-config_2.11</artifactId> <version>3.4.0</version>
-    </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId> <version>5.1.47</version>
+      <artifactId>scalikejdbc-config_2.11</artifactId>
+      <version>3.4.0</version>
     </dependency>
   </dependencies>
 
